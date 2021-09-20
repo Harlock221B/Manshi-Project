@@ -7,7 +7,7 @@
       </div>
       <div id="card_images">
           <div id="card_image" v-for="(image, index) in imgs" :key="index">
-              <img src="" alt="">
+              <img :src="image" :alt="index">
           </div>
       </div>
     </section>
@@ -20,7 +20,7 @@
         props: ["text_title", "text_content", "back_color", "text_color", "imgs"],
         computed:{
             cssCustom(){
-                return{
+                return {
                     "--mycolor": this.text_color,
                     "--myback": this.back_color,
                 };
