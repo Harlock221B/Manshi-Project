@@ -5,6 +5,7 @@
     <router-link to="/network">Rede</router-link>
     <router-link to="/work">Trabalhe conosco</router-link>
     <router-link to="/menu">Menu</router-link>
+    <img :src="img_logo" alt="logo">
   </div>
 </template>
 
