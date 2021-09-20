@@ -17,4 +17,10 @@ a {
   color: var(--mycolor);
   text-decoration: none;
 }
+
+#myLogo {
+  color: var(--mycolor);
+  width: 30px;
+  height: 30px;
+}
 /*# sourceMappingURL=Navbar.css.map */
