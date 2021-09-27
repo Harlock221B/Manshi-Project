@@ -10,15 +10,15 @@
     [
         {
             "id":1,
-            "img":"images/premium.jpg"
+            "img":"/images/premium.jpg"
         },
         {
             "id":2,
-            "img":"images/premium2.jpg"
+            "img":"/images/premium2.jpg"
         },
         {
             "id":3,
-            "img":"images/premium3.jpg"
+            "img":"/images/premium3.jpg"
         }
     ]
 }

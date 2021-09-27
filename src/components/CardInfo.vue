@@ -1,7 +1,7 @@
 <template>
   <div id="cardinfo" :style="cssCustom">
     <section class="sectionInfo">
-      <div class="card-body">
+      <div class="card_body">
         <h5>{{ text_title }}</h5>
         <p>{{ text_content }}</p>
       </div>
